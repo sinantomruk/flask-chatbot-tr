@@ -1,0 +1,5 @@
+Flask>=1.0.0
+jpype1
+numpy
+tensorflow
+keras

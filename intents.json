@@ -1,0 +1,46 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Selam", "Orada biri var mı?", "Merhaba!", "Günaydın"],
+         "responses": ["Selam!", "Merhabalar, nasıl yardımcı olabilirim acaba?", "Merhaba!"],
+         "context": [""]
+        },
+        {"tag": "halhatir",
+         "patterns": ["Nasılsın", "Naber", "Mutlu musun", "Hayat nasıl"],
+         "responses": ["İyilik, seni sormalı", "Standart", "Bir küçük bilgisayarın içinde ne nasıl olunursa", "İyi"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bay bay", "quit", "Güle güle", "ben kaçar", "Ben kaçtım", "İyi günler", "Görüşürüz", "Görüşmek üzere", "Hoşçakal"],
+         "responses": [":(", "Tekrar görüşmek üzere", "Güle Güle!", "Bensiz iyi eğlenceler", "Öyle olsun!!!"],
+         "context": [""]
+        },
+        {"tag": "name",
+         "patterns": ["Adın ne?", "Bir adın var mı?", "Kimsin?", "Kim", "Sana ne demeliyim?"],
+         "responses": ["Henüz bir adım yok"],
+         "context": [""]
+        },
+        {"tag": "ceng",
+         "patterns": ["Abi EE mi ceng mi daha iyi", "Bilgisayar mühendisliğinin elektrikten farkı ne", "Elektrik mi bilgisayar mı"],
+         "responses": ["Bu nasıl soru tabii ki de bilgisayar mühendisliği"]
+        },
+        {"tag": "yandal",
+         "patterns": ["Yan dal", "Yandal", "Yandal yapmal için ne kadar ortalama lazım", "Kaçıncı sınıftan itibaran yandal yapılıyo", "İstediğimiz bölümden yandal yapabiliyo muyuz"],
+         "responses": ["İnsert yandal bilgileri here"],
+         "context": [""]
+        },
+        {"tag": "cap",
+         "patterns": ["çap", "çift anadal programı", "Çap yapmak için kaç ortalama lazım", "naıl çapa başvurabilirim", "çap için neler gerekli"],
+         "responses": ["İnsert çap bilgileri here"],
+         "context": [""]
+        },
+        {"tag": "liseli",
+         "patterns": ["Merhaba dokuzuncu sınıftayım ODTÜ'yü kazanmak için neler yapmalıyım", "Lisedeyim hedefim odtü bilgisaya mühendisliği bana tavsiyeleriniz var mı"],
+         "responses": ["İnsert liseli cevap here"]
+        },
+        {"tag": "dump",
+         "patterns": ["fgfdgsd"],
+         "responses": ["Ne demek istediğini anlamadım biraz daha açıklar mısın?"],
+         "context": [""]
+        }
+   ]
+}
